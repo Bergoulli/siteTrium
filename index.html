@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Construction Website</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <!-- header section starts  -->
+
+   <header class="header">
+
+      <a href="#" class="logo">
+      <img src="images\logoTrium.jpeg" alt="Trium Engenharia">
+   </a>
+
+      <nav class="navbar">
+         <a href="#home">Home</a>
+         <a href="#about">Quem somos</a>
+         <a href="#services">Serviços</a>
+         <a href="pages\portifolio.html">Projetos</a>
+         <a href="#contact">Contato</a>
+      </nav>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="info-btn" class="fas fa-info-circle" title="Click to See Contact Info"></div>
+         <div id="search-btn" class="fas fa-search" title="Click to See Search Box"></div>
+
+      </div>
+
+      <form action="" class="search-form">
+         <input type="search" name="" placeholder="search here..." id="search-box">
+         <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+
+   </header>
+
+   <div class="contact-info">
+
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+         <i class="fas fa-phone"></i>
+         <h3>Telefone</h3>
+         <p>(88) 99280-6134</p>
+      </div>
+
+      <div class="info">
+         <i class="fas fa-envelope"></i>
+         <h3>Email</h3>
+         <p>mateuscoslop2@gmail.com</p>
+      </div>
+      <!--
+
+      <div class="info">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>office address</h3>
+         <p>mumbai, india - 400104</p>
+      </div>
+      -->
+      
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-linkedin"></a>
+      </div>
+
+   </div>
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <section class="swiper-slide slide">
+               <video autoplay muted loop playsinline class="video-bg">
+                  <source src="images\video_int.mp4" type="video/mp4">
+               </video>
+
+               <div class="video-overlay"></div>
+
+               <div class="content">
+                  <h3>Trium Engenharia</h3>
+                  <h2>Soluções em infraestrutura e renováveis.</h2>
+                  <a href="pages\portifolio.html#projects" class="btn">Portifólio</a>
+               </div>
+            </section>
+         </div>
+
+
+      </div>
+
+   </section>
+
+   <!-- home section ends -->
+
+   <!-- about section starts  -->
+
+   <section class="about" id="about">
+
+      <h1 class="heading"> Quem somos </h1>
+
+      <div class="row">
+
+         <div class="video">
+            <video src="images/about-vid.mp4" loop muted autoplay></video>
+         </div>
+
+         <div class="content">
+            <h3>Soluções em Engenharia Elétrica com Foco em Performance</h3>
+            <p>Especialistas na elaboração de projetos técnicos e homologação junto às concessionárias. 
+         Unimos conformidade com a <b>NBR 5410 e NBR 14039</b> para garantir segurança e 
+         viabilidade econômica ao seu empreendimento.</p>
+         <p>
+         Atuamos desde a homologação de sistemas fotovoltaicos, Projetos de Subestações Aéreas e Abrigadas, PMUC e Dimensionamento de banco de capacitores para correção de fator de potência.
+         </p>
+            <a href="#services" class="btn">Leia mais</a>
+         </div>
+
+      </div>
+
+   </section>
+
+<section class="analysis" style="
+    background: linear-gradient(135deg, #0a0a0a 0%, #0f0f0f 100%);
+    padding: 6rem 9%;
+    color: #fff;
+    margin-top: 4rem;
+">
+
+    <div class="row" style="
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 4rem; 
+        align-items: center; 
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    ">
+
+        <!-- TEXTO -->
+        <div class="content" style="flex: 1 1 50rem;">
+
+            <p style="
+                font-size: 1rem; 
+                color: #9ca3af;
+                text-transform: uppercase; 
+                font-weight: 600; 
+                letter-spacing: 0.2rem; 
+                margin-bottom: 1rem;
+            ">
+                Análise de fatura
+            </p>
+            
+            <h2 style="
+                color: #ffffff; 
+                font-size: clamp(2.5rem, 5vw, 3.8rem); 
+                line-height: 1.2; 
+                margin: 1.5rem 0;
+                font-weight: 800;
+            ">
+                Sua conta pode esconder 
+                <span style="color: #e5e7eb;">economia real</span>.
+            </h2>
+
+            <p style="
+                font-size: 1.4rem; 
+                line-height: 1.6; 
+                color: #9ca3af; 
+                margin-bottom: 2.5rem;
+            ">
+                Envie sua fatura e descubra erros, cobranças indevidas e oportunidades no mercado livre de energia.
+            </p>
+
+            <ul style="
+                display: flex; 
+                flex-direction: column; 
+                gap: 1.2rem; 
+                list-style: none; 
+                padding: 0;
+                margin-bottom: 3rem;
+            ">
+                <li style="display: flex; align-items: center; gap: 1rem; font-size: 1.3rem;">
+                    <span style="color:#e5e7eb;">✔</span>
+                    Fator de potência e reativos
+                </li>
+
+                <li style="display: flex; align-items: center; gap: 1rem; font-size: 1.3rem;">
+                    <span style="color:#e5e7eb;">✔</span>
+                    Demanda contratada e tarifa
+                </li>
+
+                <li style="display: flex; align-items: center; gap: 1rem; font-size: 1.3rem;">
+                    <span style="color:#e5e7eb;">✔</span>
+                    Viabilidade no mercado livre
+                </li>
+            </ul>
+
+            <a href="#contact" style="
+                display: inline-block;
+                background: #ffffff;
+                color: #111;
+                padding: 1.2rem 2.8rem;
+                font-size: 1.3rem;
+                font-weight: 700;
+                border-radius: 50px;
+                text-decoration: none;
+                transition: 0.3s;
+            "
+            onmouseover="this.style.background='#e5e7eb'"
+            onmouseout="this.style.background='#ffffff'"
+            >
+                Enviar minha fatura
+            </a>
+
+        </div>
+
+        <!-- IMAGEM -->
+        <div class="image" style="
+            flex: 1 1 35rem; 
+            display: flex; 
+            justify-content: center;
+        ">
+
+            <img src="images/fatura.jpg" alt="Análise de fatura"
+                 style="
+                    width: 100%; 
+                    max-width: 480px; 
+                    border-radius: 15px;
+                    box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+                 ">
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+   
+   
+
+   <!-- about section ends -->
+
+   <!-- services section starts  -->
+<section class="services" id="services">
+
+      <h1 class="heading"> Serviços </h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/service-1.jpg" alt="">
+            <h3>Banco de capacitores</h3>
+            <p>Dimensionamento para correção de fator de potência, reduzindo multas e otimizando o consumo de energia da sua empresa.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/service-2.jpg" alt="">
+            <h3>Projeto de Subestação</h3>
+            <p>Elaboração de projetos completos para subestações aéreas e abrigadas, seguindo todas as normas técnicas.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/service-3.png" alt="">
+            <h3>Microgeração Fotovoltaica</h3>
+            <p>Soluções completas em energia solar, desde o estudo de viabilidade e projeto até a homologação junto à concessionária.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/service-4.png" alt="">
+            <h3>Instalações Elétricas</h3>
+            <p>Projetos de instalações elétricas residenciais, comerciais e industriais com foco em segurança, eficiência e economia.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/service-5.png" alt="">
+            <h3>Empreendimento com Múltiplas Unidades (EMUC)</h3>
+            <p>Projetos especializados para condomínios e prédios com medição agrupada, garantindo a correta distribuição de carga.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/service-6.png" alt="">
+            <h3>Comandos Elétricos</h3>
+            <p>Montagem e manutenção de painéis de comando para controle de motores e bombas, garantindo proteção e operação segura.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/service-7.png" alt="">
+            <h3>CLP e Automação</h3>
+            <p>Programação de Controladores Lógicos Programáveis para automação de processos industriais, aumentando a produtividade e precisão.</p>
+         </div>
+      
+         <div class="box">
+            <img src="images/service-8.png" alt="">
+            <h3>Laudos e Consultoria</h3>
+            <p>Emissão de laudos técnicos, inspeções e SPDA, garantindo que sua edificação esteja em conformidade com as normas da ABNT.</p>
+         </div>
+
+      </div>
+
+   </section>
+   <!-- services section ends -->
+
+   <!-- projects section starts  -->
+   <!--
+   <section class="projects" id="projects">
+
+      <h1 class="heading"> Portifólio </h1>
+
+      <div class="box-container">
+
+         <a href="images/project-1.jpg" class="box">
+            <div class="image">
+               <img src="images/project-1.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>dream home</h3>
+                  <p>construction, design</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+
+         <a href="images/project-2.jpg" class="box">
+            <div class="image">
+               <img src="images/project-2.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>dream home</h3>
+                  <p>construction, design</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+
+         <a href="images/project-3.jpg" class="box">
+            <div class="image">
+               <img src="images/project-3.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>dream home</h3>
+                  <p>construction, design</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+
+         <a href="images/project-4.jpg" class="box">
+            <div class="image">
+               <img src="images/project-4.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>dream home</h3>
+                  <p>construction, design</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+
+         <a href="images/project-5.jpg" class="box">
+            <div class="image">
+               <img src="images/project-5.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>dream home</h3>
+                  <p>construction, design</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+
+         <a href="images/project-6.jpg" class="box">
+            <div class="image">
+               <img src="images/project-6.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>dream home</h3>
+                  <p>construction, design</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+
+      </div>
+
+   </section>
+
+      -->
+   
+
+   <!--  -->
+
+   <!--
+
+   <section class="reviews">
+
+      <h1 class="heading"> clients reviews </h1>
+
+      <div class="swiper reviews-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <p>Choosing Construction Website for our dream home project was the best decision we made. From the
+                  initial consultation to
+                  the final walkthrough, their team was professional, attentive, and dedicated to bringing our vision to
+                  life. The quality
+                  of craftsmanship and attention to detail exceeded our expectations. We are thrilled with our new home
+                  and highly
+                  recommend Construction Website to anyone looking to build a custom home which was great. </p>
+               <div class="user">
+                  <img src="images/pic 1.jpg" alt="">
+                  <div class="info">
+                     <h3>Ram Kurre</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <p>As a property developer, I have worked with many construction companies, but Construction Website
+                  stands out for their commitment to quality and reliability. They delivered a complex multi-unit
+                  residential project ahead of schedule and maintained the highest standards of construction. Their
+                  transparent approach and proactive problem-solving made the entire process smooth and stress-free. I
+                  look forward to collaborating with them on future projects.</p>
+               <div class="user">
+                  <img src="images/pic 2.jpg" alt="">
+                  <div class="info">
+                     <h3>Priya Roy</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <p>Building our new corporate headquarters was a major undertaking, and Construction Website delivered
+                  beyond our expectations. Their team handled every aspect of the project with professionalism and
+                  expertise. The building is not only state-of-the-art but also a true reflection of our company's
+                  values and vision. We appreciate collaborative approach and the commitment to quality that
+                  Construction Website brought to this project.</p>
+               <div class="user">
+                  <img src="images/pic 3.jpg" alt="">
+                  <div class="info">
+                     <h3>Vardaan Sao</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+   -->
+
+   <!-- reviews section ends -->
+
+   <!-- 
+
+   <section class="pricing" id="pricing">
+
+      <h1 class="heading"> our pricing </h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <i class="fas fa-home"></i>
+            <h3>basic plan</h3>
+            <div class="price"><span>₹</span>21K<span>/Monthly</span></div>
+            <div class="list">
+               <p>Interior design</p>
+               <p>Refurbishment</p>
+               <p>Material supply</p>
+               <p>Maintenance</p>
+               <p>12 Hours support</p>
+            </div>
+            <a href="#" class="btn">choose plan</a>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-building"></i>
+            <h3>premium plan</h3>
+            <div class="price"><span>₹</span>55K<span>/Monthly</span></div>
+            <div class="list">
+               <p>Interior design</p>
+               <p>Refurbishment</p>
+               <p>Material supply</p>
+               <p>Maintenance</p>
+               <p>12 Hours support</p>
+            </div>
+            <a href="#" class="btn">choose plan</a>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-city"></i>
+            <h3>ultimate plan</h3>
+            <div class="price"><span>₹</span>110K<span>/Monthly</span></div>
+            <div class="list">
+               <p>Interior design</p>
+               <p>Refurbishment</p>
+               <p>Material supply</p>
+               <p>Maintenance</p>
+               <p>12 Hours support</p>
+            </div>
+            <a href="#" class="btn">choose plan</a>
+         </div>
+
+      </div>
+
+   </section>
+
+   -->
+   
+   <!-- pricing section ends -->
+
+   <!-- contact section starts  -->
+
+   <section class="contact" id="contact">
+
+      <h1 class="heading"> Contato </h1>
+
+      <div class="row">
+         
+         <!--
+         <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy"></iframe>
+         
+            -->
+         <form action="">
+            <h3>Contato</h3>
+            <input type="text" placeholder="Nome" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="number" placeholder="Telefone: 00000000000" class="box">
+            <textarea name="" placeholder="Mensagem" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Envia sua mensagem" class="btn">
+         </form>
+
+      </div>
+
+   </section>
+
+   <!-- contact section ends -->
+
+   <!-- 
+
+   <section class="blogs" id="blogs">
+
+      <h1 class="heading"> our blogs </h1>
+
+      <div class="swiper blogs-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/construction technology.jfif" alt="">
+               </div>
+               <div class="content">
+                  <h3>Construction Techniques</h3>
+                  <p>Articles on best practices, innovative methods, and emerging technologies in construction.</p>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/project management.jfif" alt="">
+               </div>
+               <div class="content">
+                  <h3>Project Management</h3>
+                  <p>Tips and guides for effective project planning, scheduling, and budgeting in construction projects.
+                  </p>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/construction-news.webp" alt="">
+               </div>
+               <div class="content">
+                  <h3>Industry News</h3>
+                  <p>Updates on regulatory changes, market trends, and industry events impacting the construction
+                     sector.</p>
+               </div>
+            </div>
+
+
+
+
+         </div>
+
+   </section>
+   -->
+
+   <!-- blogs section ends -->
+
+   <!-- 
+
+   <section class="logo-container">
+      <div class="swiper logo-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide"><img src="images/client-logo-1.png" alt=""></div>
+            <div class="swiper-slide slide"><img src="images/client-logo-2.png" alt=""></div>
+            <div class="swiper-slide slide"><img src="images/client-logo-3.png" alt=""></div>
+            <div class="swiper-slide slide"><img src="images/client-logo-4.png" alt=""></div>
+            <div class="swiper-slide slide"><img src="images/client-logo-5.png" alt=""></div>
+            <div class="swiper-slide slide"><img src="images/client-logo-6.png" alt=""></div>
+         </div>
+      </div>
+   </section>
+   -->
+
+   <!-- client logo section ends -->
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+      <div class="footer-container">
+         <div class="footer-logo">
+            <img src="images\logoTrium.jpeg" alt="Logo">
+         </div>
+
+         <div class="footer-socials">
+            <h2>Siga-nos nas redes sociais</h2>
+            <div class="social-icons">
+                  <a href="#" target="_blank" aria-label="Facebook" class="icon-facebook">
+                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+                  </a>
+                  <a href="#" target="_blank" aria-label="Instagram" class="icon-instagram">
+                     <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                  </a>
+                  <a href="#" target="_blank" aria-label="Linkedin" class="icon-linkedin">
+                     <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5-38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                  </a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+
+   <script>
+
+      lightGallery(document.querySelector('.projects .box-container'));
+
+   </script>
+
+</body>
+
+</html>
